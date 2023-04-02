@@ -1,0 +1,74 @@
+[
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "name": "Идиот",
+      "author": "Ф.Д. Достоевский",
+      "pub_date": "2018-02-27"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+      "name": "1984",
+      "author": "Джордж Оруэл",
+      "pub_date": "2016-12-06"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "name": "В память о прошлом Земли",
+      "author": "Лю Цысинь",
+      "pub_date": "2018-09-22"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "name": "Темная башня",
+      "author": "Стивен Кинг",
+      "pub_date": "2020-01-01"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+      "name": "1Q84",
+      "author": "Харуки Мураками",
+      "pub_date": "2021-05-02"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+      "name": "Противостояние",
+      "author": "Стивен Кинг",
+      "pub_date": "2015-02-04"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 7,
+    "fields": {
+      "name": "Шаровая молния",
+      "author": "Лю Цысинь",
+      "pub_date": "2019-06-09"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 8,
+    "fields": {
+      "name": "Цена вопроса",
+      "author": "Александра Маринина",
+      "pub_date": "2019-06-09"
+    }
+  }
+]
