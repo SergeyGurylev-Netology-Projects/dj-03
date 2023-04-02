@@ -17,6 +17,8 @@ def shows_books_list(request):
 
 
 def shows_books_list_pub_date(request, pub_date):
+    template = 'books/books_list.html'
+    
     try:
         prev_pub_date = Book.objects.filter(pub_date__lt=pub_date).latest('pub_date').pub_date
     except ObjectDoesNotExist:
@@ -26,10 +28,7 @@ def shows_books_list_pub_date(request, pub_date):
         next_pub_date = Book.objects.filter(pub_date__gt=pub_date).earliest('pub_date').pub_date
     except ObjectDoesNotExist:
         next_pub_date = None
-
-    print(prev_pub_date)
-    print(next_pub_date)
-    template = 'books/books_list.html'
+        
     context = {
         'books': [entry for entry in Book.objects.filter(pub_date=pub_date)],
         'has_prev_next_navigation': True,
